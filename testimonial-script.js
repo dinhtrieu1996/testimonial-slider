@@ -923,10 +923,10 @@ font-family: ${testimonial_content_type_font_family};
                          }
                          if(testimonial_content_readmore){
                            css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section a.tpro-read-more{
+#sp-testimonial-pro-${id}.simesy-testimonial-pro-section a.tpro-read-more{
 color:${testimonial_content_readmore_color};
 }
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section a.tpro-read-more:hover{
+#sp-testimonial-pro-${id}.simesy-testimonial-pro-section a.tpro-read-more:hover{
 color:${testimonial_content_readmore_hover};
 }
 `;
@@ -1044,7 +1044,7 @@ font-family: ${company_type_font_family};
                          var font_weight = location_type_font_weight && location_type_font_weight !== "italic" &&  location_type_font_weight !== "normal" ? location_type_font_weight.replace("italic", "") : font_normal;
                          var font_style = location_type_font_weight && location_type_font_weight.substr(-6) === "italic" ? "italic" : "";
                          css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-location{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-location{
 color: ${location_type_color};
 font-size: ${location_type_font_size}px;
 line-height: ${location_type_line_height}px;
@@ -1059,7 +1059,7 @@ margin: ${location_type_mt}px ${location_type_mr}px ${location_type_mb}px ${loca
                          if (location_font_load) {
                            var location_type_font_family = config.client_location_typography["font-family"];
                            css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-location{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-location{
 font-family: ${location_type_font_family};
 }`
                          }
@@ -1081,7 +1081,7 @@ font-family: ${location_type_font_family};
                          var font_weight = phone_type_font_weight && phone_type_font_weight !== "italic" &&  phone_type_font_weight !== "normal" ? phone_type_font_weight.replace("italic", "") : font_normal;
                          var font_style = phone_type_font_weight && phone_type_font_weight.substr(-6) === "italic" ? "italic" : "";
                          css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-phone{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-phone{
 color: ${phone_type_color};
 font-size: ${phone_type_font_size}px;
 line-height: ${phone_type_line_height}px;
@@ -1096,7 +1096,7 @@ margin: ${phone_type_mt}px ${phone_type_mr}px ${phone_type_mb}px ${phone_type_ml
                          if (phone_font_load) {
                            var phone_type_font_family = config.client_phone_typography["font-family"];
                            css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-phone{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-phone{
 font-family: ${phone_type_font_family};
 }`
                          }
@@ -1119,7 +1119,7 @@ font-family: ${phone_type_font_family};
                          var font_weight = email_type_font_weight && email_type_font_weight !== "italic" &&  email_type_font_weight !== "normal" ? email_type_font_weight.replace("italic", "") : font_normal;
                          var font_style = email_type_font_weight && email_type_font_weight.substr(-6) === "italic" ? "italic" : "";
                          css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-email{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-email{
 color: ${email_type_color};
 font-size: ${email_type_font_size}px;
 line-height: ${email_type_line_height}px;
@@ -1134,7 +1134,7 @@ margin: ${email_type_mt}px ${email_type_mr}px ${email_type_mb}px ${email_type_ml
                          if (email_font_load) {
                            var email_type_font_weight = config.client_email_typography["font-family"];
                            css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-email{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-email{
 font-family: ${email_type_font_weight};
 }`
                          }
@@ -1157,7 +1157,7 @@ font-family: ${email_type_font_weight};
                          var font_weight = date_type_font_weight && date_type_font_weight !== "italic" &&  date_type_font_weight !== "normal" ? date_type_font_weight.replace("italic", "") : font_normal;
                          var font_style = date_type_font_weight && date_type_font_weight.substr(-6) === "italic" ? "italic" : "";
                          css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-date{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-date{
 color: ${date_type_color};
 font-size: ${date_type_font_size}px;
 line-height: ${date_type_line_height}px;
@@ -1172,7 +1172,7 @@ margin: ${date_type_mt}px ${date_type_mr}px ${date_type_mb}px ${date_type_ml}px;
                          if (date_font_load) {
                            var date_type_font_weight = config.testimonial_date_typography["font-family"];
                            css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-date{
+#simesy-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-date{
 font-family: ${date_type_font_weight};
 }`
                          }
@@ -1195,7 +1195,7 @@ font-family: ${date_type_font_weight};
                          var font_weight = website_type_font_weight && website_type_font_weight !== "italic" &&  website_type_font_weight !== "normal" ? website_type_font_weight.replace("italic", "") : font_normal;
                          var font_style = website_type_font_weight && website_type_font_weight.substr(-6) === "italic" ? "italic" : "";
                          css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-website{
+#sp-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-website{
 color: ${website_type_color};
 font-size: ${website_type_font_size}px;
 line-height: ${website_type_line_height}px;
@@ -1210,7 +1210,7 @@ margin: ${website_type_mt}px ${website_type_mr}px ${website_type_mb}px ${website
                          if (website_font_load) {
                            var website_type_font_weight = config.client_website_typography.font_family;
                            css += `
-#sp-testimonial-pro-${id}.sp-testimonial-pro-section .tpro-client-website{
+#sp-testimonial-pro-${id}.simesy-testimonial-pro-section .tpro-client-website{
 font-family: ${website_type_font_weight};
 }`
                          }
@@ -1416,7 +1416,7 @@ padding-right:${testimonial_margin }px
                              social_icon_border_color= config.social_icon_border.color,
                              social_icon_border_color_hv = config.social_icon_border.hover_color;
                          css += `
-#sp-testimonial-pro-wrapper-${id} .sp-testimonial-pro-section .tpro-social-profile{
+#sp-testimonial-pro-wrapper-${id} .simesy-testimonial-pro-section .tpro-social-profile{
 text-align:${social_profile_position};
 }
 `;
@@ -2165,7 +2165,7 @@ rtl: ${rtl_mode},
                              html_popup += '<div class="tpro-client-email">'+item_testi.config.email+'</div>';
                            }
                            if(config.testimonial_client_date && item_testi.createdAt != ''){
-                             html_popup += '<div class="tpro-testimonial-date">'+dateFormat(item_testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                             html_popup += '<div class="tpro-client-date">'+dateFormat(item_testi.createdAt,config.testimonial_client_date_format)+'</div>';
                            }
                            if(config.testimonial_client_website && item_testi.config.website != ''){
                              if(config.identity_linking_website){
@@ -2312,7 +2312,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -2403,7 +2403,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -2492,7 +2492,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -2582,7 +2582,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -2672,7 +2672,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -2762,7 +2762,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -2913,7 +2913,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -3009,7 +3009,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
@@ -3104,7 +3104,7 @@ rtl: ${rtl_mode},
                          html_fun += '<div class="tpro-client-email">'+testi.config.email+'</div>';
                        }
                        if(config.testimonial_client_date && testi.createdAt != ''){
-                         html_fun += '<div class="tpro-testimonial-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
+                         html_fun += '<div class="tpro-client-date">'+dateFormat(testi.createdAt,config.testimonial_client_date_format)+'</div>';
                        }
                        if(config.testimonial_client_website && testi.config.website != ''){
                          if(config.identity_linking_website){
